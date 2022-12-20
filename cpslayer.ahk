@@ -9,7 +9,14 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 ;CapsLock will only engage when pressed together with Alt
 SetCapsLockState, AlwaysOff
-!CapsLock::SetCapsLockState, % GetKeyState("CapsLock", "T") ? "AlwaysOff" : "On"
+CapsLock & Esc::                                                       ;|
+GetKeyState, CapsLockState, CapsLock, T                              ;|
+if CapsLockState = D                                                 ;|
+    SetCapsLockState, AlwaysOff                                      ;|
+else                                                                 ;|
+    SetCapsLockState, AlwaysOn                                       ;|
+KeyWait, Esc                                                          ;|
+return
 
 #If GetKeyState("CapsLock", "P")
 	; The symbols are: ! = Alt, ^ = Ctrl, + = Shift
@@ -32,6 +39,7 @@ SetCapsLockState, AlwaysOff
 	`;::End
 	[::PgUp
 	'::PgDn
+	Esc::
 	
 	u::Enter
 	

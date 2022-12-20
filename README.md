@@ -2,9 +2,7 @@ Turn CapsLock into a layer key using [AutoHotKey](https://www.autohotkey.com/). 
 
 ## Usage
 
-![keyboard-layout](C:\Users\stuge\Documents\GitHub\capslock-layer-autohotkey\keyboard-layout.png)
-
-[keyboardlayout](http://www.keyboard-layout-editor.com/##@@=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&_c=%23689b34%3B&=%2F_%0A-%0A%0A%0A%0A%0A%0A%0A%0Atilde&_c=%23cccccc%3B&=+%0A%2F=&_w:2%3B&=Backspace%3B&@_w:1.5%3B&=Tab&=Q&=W&_c=%23689b34%3B&=E%0A%0A%0A%0ACtrl%0A%0A%0A%0A%0AUp&_c=%23cccccc%3B&=R&=T&=Y&_c=%23689b34%3B&=U%0A%0A%0A%0A%0A%0A%0A%0A%0AEnter&=I%0A%0A%0A%0A%0A%0A%0A%0A%0AUp&_c=%23cccccc%3B&=O&_c=%23689b34%3B&=P%0A%0A%0A%0A%0A%0A%0A%0A%0AHome&=%7B%0A%5B%0A%0A%0A%0A%0A%0A%0A%0APgUp&_c=%23cccccc%3B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C%3B&@_c=%230084c2&w:1.75%3B&=Caps%20Lock%0A%0A%0A%0A%0A%0A%0A%0A%0ALayer%20Key&_c=%23cccccc%3B&=A&_c=%23689b34%3B&=S%0A%0A%0A%0ACtrl%0A%0A%0A%0A%0ALeft&=D%0A%0A%0A%0ACtrl%0A%0A%0A%0A%0ADown&=F%0A%0A%0A%0ACtrl%0A%0A%0A%0A%0ARight&_c=%23cccccc%3B&=G&_c=%23689b34%3B&=H%0A%0A%0A%0A%0A%0A%0A%0A%0ABkspc&=J%0A%0A%0A%0A%0A%0A%0A%0A%0ALeft&=K%0A%0A%0A%0A%0A%0A%0A%0A%0ADown&=L%0A%0A%0A%0A%0A%0A%0A%0A%0ARight&=%2F:%0A%2F%3B%0A%0A%0A%0A%0A%0A%0A%0AEnd&=%22%0A'%0A%0A%0A%0A%0A%0A%0A%0APgDn&_c=%23cccccc&w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&=Z&=X&_c=%23689b34%3B&=C%0A%0A%0A%0A%0A%0A%0A%0A%0Abtick&_c=%23cccccc%3B&=V&=B&_c=%23689b34%3B&=N%0A%0A%0A%0ACtrl%0A%0A%0A%0A%0ABkspc&=M%0A%0A%0A%0A%0A%0A%0A%0A%0ADelete&_c=%23cccccc%3B&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_w:2.75%3B&=Shift%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_c=%23d02f1c&w:1.25%3B&=Alt%0A%0A%0A%0A%0A%0A%0A%0A%0AActivate%0ACpsLck&_c=%23cccccc&a:7&w:6.25%3B&=&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=Win&_w:1.25%3B&=Menu&_w:1.25%3B&=Ctrl) (permalink to keyboard-layout-editor.com of the above image, it’ll break though)
+![keyboard-layout](capslock-layer-autohotkey.png)
 
 ### Modify
 
