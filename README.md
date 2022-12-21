@@ -4,6 +4,28 @@ Turn CapsLock into a layer key using [AutoHotKey](https://www.autohotkey.com/). 
 
 ![keyboard-layout](capslock-layer-autohotkey.png)
 
+| Key          | Remap                    |
+|--------------|--------------------------|
+| <kbd>u</kbd> |<kbd>Up</kbd>                          |
+| <kbd>j</kbd> | <kbd>Left</kbd>        |
+| <kbd>k</kbd> | <kbd>Down</kbd>        |
+| <kbd>l</kbd> | <kbd>Right</kbd> |
+| <kbd>h</kbd> | <kbd>Backspace</kbd> |
+| <kbd>n</kbd> | <kbd>Ctrl</kbd> + <kbd>Backspace</kbd> |
+| <kbd>m</kbd> | <kbd>Delete</kbd>      |
+| <kbd>p</kbd> | <kbd>Home</kbd> |
+| <kbd>;</kbd> | <kbd>End</kbd> |
+| <kbd>[</kbd> | <kbd>PgUp</kbd>        |
+| <kbd>‘</kbd> | <kbd>PgDn</kbd>       |
+| <kbd>u</kbd> | <kbd>Enter</kbd>      |
+| <kbd>-</kbd> | <kbd>~</kbd> |
+| <kbd>c</kbd> | <kbd>`</kbd> |
+| <kbd>Esc</kbd> | <kbd>CapsLock</kbd> |
+| <kbd>e</kbd> | <kbd>Ctrl</kbd> + <kbd>Up</kbd> |
+| <kbd>s</kbd> | <kbd>Ctrl</kbd> + <kbd>left</kbd> |
+| <kbd>d</kbd> | <kbd>Ctrl</kbd> + <kbd>Down</kbd> |
+| <kbd>f</kbd> | <kbd>Ctrl</kbd> + <kbd>Right</kbd> |
+
 ### Modify
 
 You might be interested in changing what I’ve got.

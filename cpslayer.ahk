@@ -7,15 +7,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; CapsLock as a layer modifier key
 #HotkeyModifierTimeout 100 ; prevents sticking of layer key
 
-;CapsLock will only engage when pressed together with Alt
+;CapsLock is turned off, can be toggled with CapsLock + Esc
 SetCapsLockState, AlwaysOff
-CapsLock & Esc::                                                       ;|
-GetKeyState, CapsLockState, CapsLock, T                              ;|
-if CapsLockState = D                                                 ;|
-    SetCapsLockState, AlwaysOff                                      ;|
-else                                                                 ;|
-    SetCapsLockState, AlwaysOn                                       ;|
-KeyWait, Esc                                                          ;|
+
+CapsLock & Esc::
+GetKeyState, CapsLockState, CapsLock, T
+if CapsLockState = D
+    SetCapsLockState, AlwaysOff
+else
+    SetCapsLockState, AlwaysOn
+KeyWait, Esc
 return
 
 #If GetKeyState("CapsLock", "P")
